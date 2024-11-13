@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Imagen Completa</title>
+    <style>
+        /* Estilos para que la imagen llene toda la pantalla sin recortarse */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000; /* Color de fondo para franjas */
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain; /* Asegura que la imagen no se recorte */
+        }
+    </style>
+</head>
+<body>
+    <img src="nosotros.jpg" alt="Imagen Completa">
+</body>
+</html>
